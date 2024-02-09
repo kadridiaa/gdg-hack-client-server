@@ -1,7 +1,6 @@
 // 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
 import OpenAI from 'openai';
 
-// Replace 'Your API Key' with your actual OpenAI API key
 const apiKey = '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';
 
 const openai = new OpenAI({ apiKey });
@@ -17,7 +16,7 @@ async function main() {
       ],
       model: "gpt-3.5-turbo",
     });
-  
+    //  console.log(completion.choices[0].message.content);
     return completion.choices[0].message.content;
 
   } catch (error) {
@@ -25,5 +24,5 @@ async function main() {
     return null; 
   }
 }
-
+main();
 export default main;
