@@ -17,6 +17,24 @@ const hackathonsData = [
         description: 'Calling all tech enthusiasts! Get ready for 48 hours of coding and creativity.',
         date: '2024-05-10'
     },
+    {
+        picture: 'https://example.com/hackathon3.jpg',
+        name: 'Hackathon 3',
+        description: 'Calling all tech enthusiasts! Get ready for 48 hours of coding and creativity.',
+        date: '2024-05-10'
+    },
+    {
+        picture: 'https://example.com/hackathon3.jpg',
+        name: 'Hackathon 3',
+        description: 'Calling all tech enthusiasts! Get ready for 48 hours of coding and creativity.',
+        date: '2024-05-10'
+    },
+    {
+        picture: 'https://example.com/hackathon3.jpg',
+        name: 'Hackathon 3',
+        description: 'Calling all tech enthusiasts! Get ready for 48 hours of coding and creativity.',
+        date: '2024-05-10'
+    },
    
 ];
 

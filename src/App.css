@@ -1,10 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.content-container {
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
 .active {
     color: #257EBC;
     text-decoration: none;
-    /* Remove default underline */
 }
 
 .active>a {
@@ -19,7 +28,6 @@
     background-color: rgba(211, 211, 211, 0.663);
     border-radius: 30px;
     align-items: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .box:hover input {

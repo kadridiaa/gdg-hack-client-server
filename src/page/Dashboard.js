@@ -23,7 +23,7 @@ function Dashboard() {
     );
 
     return (
-        <div>
+        <div className='overflow-y-scroll h-[90vh]'>
             <div className='flex justify-between mx-28 mt-10 '>
                 <h1 className='w-[400] text-[35px] font-sans'>Discover Our Dashboard</h1>
                 <div className='flex items-center'>
@@ -41,7 +41,7 @@ function Dashboard() {
             {/* events  */}
             <div className='grid grid-cols-2 gap-4 mx-20 my-16'>
                 {filteredHackathons.map((hackathon, index) => (
-                    <div key={index} style={{ backgroundColor: '#D9F3E5' }} className='flex py-12 px-10 rounded-2xl mx-2 w-full'>
+                    <div key={index} style={{ backgroundColor: '#D9F3E5' }} className='flex py-8 px-10 rounded-2xl mx-2 w-full'>
                         <img src={EventImg} alt={hackathon.name} className='w-[30%]' />
                         <div className='px-10'>
                             <p className='font-bold text-xl'>{hackathon.name}</p>

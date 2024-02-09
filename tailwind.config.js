@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         customBlue: '#257EBC',
+        
         customLightBlue: '#E7F1F8',
+        orangeCustom: '#F05829',
+        greenCustom: '#00AE52',
       },
       fontFamily: {
         'league-spartan': ['League Spartan', 'sans-serif'],
